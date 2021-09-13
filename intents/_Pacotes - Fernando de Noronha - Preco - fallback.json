@@ -1,0 +1,64 @@
+{
+  "id": "38de9e63-ae0e-44a2-a9a4-455847c436f7",
+  "parentId": "94bef6fc-16e7-4986-9c64-40f8dd9233c2",
+  "rootParentId": "94bef6fc-16e7-4986-9c64-40f8dd9233c2",
+  "name": "_Pacotes - Fernando de Noronha - Preco - fallback",
+  "contexts": [
+    "pacotes",
+    "_Pacotes-FernandodeNoronha-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-FernandodeNoronha-Preco._Pacotes-FernandodeNoronha-Preco-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Sim",
+                  "payload": "comprar_postback"
+                },
+                {
+                  "payload": "refuse_postback",
+                  "content_type": "text",
+                  "title": "Não"
+                }
+              ],
+              "text": "Não entendi! Você gostaria de comprar esse pacote?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

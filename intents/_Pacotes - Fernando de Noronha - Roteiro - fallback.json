@@ -1,0 +1,63 @@
+{
+  "id": "59559e5c-e7e4-4724-9d17-b67dbadbf544",
+  "parentId": "e3e7df27-37ea-4f8a-aa07-0409eb9cae60",
+  "rootParentId": "e3e7df27-37ea-4f8a-aa07-0409eb9cae60",
+  "name": "_Pacotes - Fernando de Noronha - Roteiro - fallback",
+  "contexts": [
+    "_Pacotes-FernandodeNoronha-Roteiro-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-FernandodeNoronha-Roteiro._Pacotes-FernandodeNoronha-Roteiro-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Não entendi! Você gostaria de comprar esse pacote?",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "payload": "comprar_postback",
+                  "title": "Sim"
+                },
+                {
+                  "payload": "refuse_postback",
+                  "title": "Não",
+                  "content_type": "text"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

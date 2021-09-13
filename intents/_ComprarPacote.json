@@ -1,0 +1,74 @@
+{
+  "id": "40cf0244-7f4e-41b1-9dfc-3afc29f3091a",
+  "name": "_ComprarPacote",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_ComprarPacote-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "comprar",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "pacote1_postback",
+                  "title": "Fernando de Noronha",
+                  "content_type": "text"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Dunas de Genipabu",
+                  "payload": "pacote2_postback"
+                },
+                {
+                  "title": "Ilhéus",
+                  "content_type": "text",
+                  "payload": "pacote3_postback"
+                }
+              ],
+              "text": "Selecione abaixo o pacote que você gostaria de comprar:"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

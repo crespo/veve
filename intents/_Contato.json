@@ -1,0 +1,112 @@
+{
+  "id": "fe8b8a17-f8a0-4bd9-bdae-abb8032c051c",
+  "name": "_Contato",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_Contato-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "image_url": "https://ucf921bf1b7699ae0b96eeb20033.previews.dropboxusercontent.com/p/thumb/ABScG1p1dKkT3aFMPOsAH82EeZ-7Y_p4vgUc-lnPMXLDuRE5arOB3DwQq6vzS2Mdo491wsr0OL4K5lhvIDmHtjkpSPoWg4S5uzHoyQ9OeSQgkBs_AGPLU2SygGzB_CBHBgo88290SZjym91ZQiuHl5S704UdiR8xh0yUFDnnuK8eS39DfvBjIFX4sfWOI2lOZy8cmhjCFIxV1TY8B5vgg-k5iLreZ3DYpVJzpPme0NFpJRPBfk4_asPvh0tNtbDyjxIsWBPvzmqPT_MmdP0kaGuAd4e4cidGaJTV0SHuGaOOHth6s70WxY_E4-Ib1cDIFzckuPKwPYAIBS1JTFLWWZl9GQflPSSGyFbYnLzGnsdK833KkxFbLa9tchDtrgEeRwGjaYlCOhBDjhw_TFrAI-h_/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "buttons": [
+                        {
+                          "title": "Clique aqui",
+                          "type": "web_url",
+                          "url": "https://instagram.com/evertur.brasil/"
+                        }
+                      ],
+                      "title": "Instagram"
+                    },
+                    {
+                      "title": "Facebook",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Clique aqui",
+                          "url": "https://www.facebook.com/evertur.brasil"
+                        }
+                      ],
+                      "image_url": "https://ucd70c2f777f194166e83cd77c76.previews.dropboxusercontent.com/p/thumb/ABTiGAqDQs_YR34Kh-ANCGr6i3Bf8y0mqdDkLGFvsKvOat_vTaEOFsRV8VVBmbqY7LgW5Ur4rzNfMIUpVBKanzMABs2RU-ikmXL5bpid6F4hewIrcVlBCqhs8md29PVqJDFuIrXmK2MXW8wDTj7WbB0FE7MlPX9gn7lN7x3rasVT7alPCg8NBEkGlCpbQ_mIFWA9--RJwpsddAFnVD2P_vAMhM7vT9njXi2DzlN4Q4VmcuAluMBDcPEi4gm_EMQe0EisItMlqzVjshFXpKlSAcrj1Y_M_kxtMduNsTGZ2RrYS8xgAJZRSD71HVHf6PD64YwCqzNJ_mqqWLc6Vj2jm__72-fUdK3qV1TOxZQqn63t_BAlstuwObJoIVKOmyhtA8ZODjf9w4eFkC5QF4beGryr/p.png?fv_content\u003dtrue\u0026size_mode\u003d5"
+                    },
+                    {
+                      "image_url": "https://uce7f7c1d096736c0344dce3430b.previews.dropboxusercontent.com/p/thumb/ABQo0dF76AB1d2m_iEv3_oa2ig7WS3Mdepig61zoCOM9auc4QJD2cFQjsJz6My-VedK5b4eWCsEqiWM778-wxoqC7AOhAfafwDmqvuvWLBaaTWRhB3Im2T1SJGsk-3cysEafuWOeRh0zwSZGbA2gnE9MF3O04-FATJu2Wks7fFhD90ujfEAZgT591kpEBHX8YHgVIbgvSP8p_4BJgmdkfsy-8VHsNLPekwDTz7bIB7AgN34s9kyy6-0pFynTzgihvlFagfP_RRk-dJHZ2dsNgalULv2ALnL_jlRskPDIOI-olH0ONBxpynxaWnGobea_TMNltNmn96m6UA9CMnpYCnLOwwTaIoXB9AvdFspXiA-4SLI5LanyJKbQ8B0l92w4riCQjYxumfhdspy2TVxNIJ0h/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "title": "Email",
+                      "subtitle": "evertur.brasil@gmail.com"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "payload": "inicio_postback",
+                  "title": "Sim"
+                },
+                {
+                  "title": "Não",
+                  "content_type": "text",
+                  "payload": "despedida_postback"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

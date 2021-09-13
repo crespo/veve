@@ -1,0 +1,75 @@
+{
+  "id": "fa7f44e4-8648-4499-9c08-7b7ebf554703",
+  "parentId": "f73645b6-d5f1-4555-9d76-5723c81265ce",
+  "rootParentId": "f73645b6-d5f1-4555-9d76-5723c81265ce",
+  "name": "_ComprarPacote - Ilheus - Dados - fallback",
+  "contexts": [
+    "comprar_ilheus",
+    "_ComprarPacote-Ilheus-Dados-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-Ilheus-Dados._ComprarPacote-Ilheus-Dados-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, não entendi!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de mais alguma informação?",
+              "quick_replies": [
+                {
+                  "title": "Sim",
+                  "content_type": "text",
+                  "payload": "inicio_postback"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "despedida_postback"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

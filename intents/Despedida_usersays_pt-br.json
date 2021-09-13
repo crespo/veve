@@ -1,0 +1,97 @@
+[
+  {
+    "id": "5a40d597-4b19-4a1c-8fe4-db427e110644",
+    "data": [
+      {
+        "text": "despedida_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d3120eed-1b80-40b7-8d17-ea29a9417b3c",
+    "data": [
+      {
+        "text": "au ",
+        "userDefined": false
+      },
+      {
+        "text": "revoir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5a41780e-0d09-414b-ad8d-d394e6662fc1",
+    "data": [
+      {
+        "text": "até a próxima",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c0147717-82a0-4f3e-a83e-be506b8362b1",
+    "data": [
+      {
+        "text": "xau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "48ba390d-e3c5-495c-95f1-88d5473c6545",
+    "data": [
+      {
+        "text": "vá embora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "262396fc-67c8-4490-92d8-ce982ccfb2dc",
+    "data": [
+      {
+        "text": "até mais",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "84d136ed-6431-4fb6-aa07-8c9afda9d65c",
+    "data": [
+      {
+        "text": "tchau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

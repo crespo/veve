@@ -1,0 +1,54 @@
+[
+  {
+    "id": "e3bf1707-f0b3-48e2-a002-47e38250be7b",
+    "data": [
+      {
+        "text": "arquipélago de fernando de noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "675ee23c-a79f-4d61-a3b9-0d87306d4a00",
+    "data": [
+      {
+        "text": "fernando de noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4959f876-ab66-41d1-8beb-f944b47b969e",
+    "data": [
+      {
+        "text": "noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3cba5633-fd42-41dc-b674-783398df93fd",
+    "data": [
+      {
+        "text": "pacote1_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

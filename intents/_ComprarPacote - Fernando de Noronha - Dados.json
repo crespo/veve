@@ -1,0 +1,82 @@
+{
+  "id": "b2481dca-f15c-4098-85b2-bbbb5732c410",
+  "name": "_ComprarPacote - Fernando de Noronha - Dados",
+  "auto": true,
+  "contexts": [
+    "comprar_noronha"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "comprar_noronha",
+          "lifespan": 1
+        },
+        {
+          "name": "_ComprarPacote-FernandodeNoronha-Dados-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9f2f65f7-d44d-49d3-b108-acb13b73b040",
+          "name": "CPF",
+          "required": true,
+          "dataType": "@CPF",
+          "value": "$CPF",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Pode repetir o teu CPF, por favor?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e7bb2fe9-7c15-4462-be20-edcbc307249f",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digita pra mim o teu nome, por favor!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

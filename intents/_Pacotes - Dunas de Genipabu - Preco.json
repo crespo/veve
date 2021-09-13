@@ -1,0 +1,78 @@
+{
+  "id": "29217b73-46fd-4e89-b64a-f93f7cf8aa3c",
+  "name": "_Pacotes - Dunas de Genipabu - Preco",
+  "auto": true,
+  "contexts": [
+    "pacotes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_Pacotes-DunasdeGenipabu-Preco-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "- O pacote individual custa R$350,00 🙋"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Sim",
+                  "payload": "comprar_postback"
+                },
+                {
+                  "payload": "refuse_postback",
+                  "title": "Não",
+                  "content_type": "text"
+                }
+              ],
+              "text": "Gostaria de comprar esse pacote?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

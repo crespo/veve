@@ -1,0 +1,122 @@
+[
+  {
+    "id": "37fed3b0-c6b0-4aba-8bf3-bed19f2c1903",
+    "data": [
+      {
+        "text": "qual o caminho que devo fazer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "49a17f8a-3c19-4b76-ad3c-f7db40a8ad78",
+    "data": [
+      {
+        "text": "quão longe ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " chegar em vocês?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "17399a11-91f2-4198-b513-4c66594df3cb",
+    "data": [
+      {
+        "text": "vocês ficam perto de mim?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dcedaf8a-fd43-4e5c-960e-ba5ee441a645",
+    "data": [
+      {
+        "text": "qual a localização ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "userDefined": false
+      },
+      {
+        "text": " vocês?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "99dc08f4-4ddf-440d-a243-d5561fee188c",
+    "data": [
+      {
+        "text": "qual a localização?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3834677d-673d-499e-a32c-fab8a2f54b0e",
+    "data": [
+      {
+        "text": "onde vocês ficam?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "244d9248-4265-436a-b905-36798e1162ea",
+    "data": [
+      {
+        "text": "endereco_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b2fcf27d-60fd-49bd-ad37-ac552b0d038e",
+    "data": [
+      {
+        "text": "endereço",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

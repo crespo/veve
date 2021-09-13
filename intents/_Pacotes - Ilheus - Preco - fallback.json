@@ -1,0 +1,63 @@
+{
+  "id": "05cd892b-8ac3-4b71-9039-a8cc946ba2cb",
+  "parentId": "3d0213bc-2e36-4c13-a232-cac4acb2141d",
+  "rootParentId": "3d0213bc-2e36-4c13-a232-cac4acb2141d",
+  "name": "_Pacotes - Ilheus - Preco - fallback",
+  "contexts": [
+    "_Pacotes-Ilheus-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-Ilheus-Preco._Pacotes-Ilheus-Preco-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Não entendi! Você gostaria de comprar esse pacote?",
+              "quick_replies": [
+                {
+                  "payload": "comprar_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "refuse_postback"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

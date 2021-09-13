@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cc7f022f-8998-4aff-b753-6c740a68f0e8",
+    "data": [
+      {
+        "text": "ilheus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "777cc445-aee4-4096-bce3-fb7f211ac69f",
+    "data": [
+      {
+        "text": "ilhéus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1144e0b3-9e48-4dfe-b172-aae3cc6bffde",
+    "data": [
+      {
+        "text": "pacote3_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

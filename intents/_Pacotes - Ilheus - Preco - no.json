@@ -1,0 +1,64 @@
+{
+  "id": "c4e9abb2-c7da-47c2-8528-daffe6eec79e",
+  "parentId": "3d0213bc-2e36-4c13-a232-cac4acb2141d",
+  "rootParentId": "3d0213bc-2e36-4c13-a232-cac4acb2141d",
+  "name": "_Pacotes - Ilheus - Preco - no",
+  "auto": true,
+  "contexts": [
+    "_Pacotes-Ilheus-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-Ilheus-Preco._Pacotes-Ilheus-Preco-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de mais alguma informação?",
+              "quick_replies": [
+                {
+                  "title": "Sim",
+                  "content_type": "text",
+                  "payload": "inicio_postback"
+                },
+                {
+                  "title": "Não",
+                  "content_type": "text",
+                  "payload": "despedida_postback"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

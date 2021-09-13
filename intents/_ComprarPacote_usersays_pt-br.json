@@ -1,0 +1,71 @@
+[
+  {
+    "id": "cba80850-aa53-4ad5-a41a-082d6b83b875",
+    "data": [
+      {
+        "text": "comprar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d5d18b9c-5f88-4d36-a328-64e8e3ef5b08",
+    "data": [
+      {
+        "text": "gostaria de comprar ",
+        "userDefined": false
+      },
+      {
+        "text": "um pacote",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c396aaeb-2aca-461a-9744-0d137c19a456",
+    "data": [
+      {
+        "text": "quero comprar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0d0e85dc-0b18-44b7-b374-944d2cc9341a",
+    "data": [
+      {
+        "text": "comprar_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dfdaff54-4de7-46d1-b4dc-dad0f364b2ab",
+    "data": [
+      {
+        "text": "comprarpacote_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

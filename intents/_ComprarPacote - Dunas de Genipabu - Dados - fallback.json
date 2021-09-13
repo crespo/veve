@@ -1,0 +1,75 @@
+{
+  "id": "48a0050b-a3a7-4d2e-98a7-a5bb728e7143",
+  "parentId": "3b67a171-1652-4f07-b1ec-dbbc697aa9d4",
+  "rootParentId": "3b67a171-1652-4f07-b1ec-dbbc697aa9d4",
+  "name": "_ComprarPacote - Dunas de Genipabu - Dados - fallback",
+  "contexts": [
+    "comprar_dunas",
+    "_ComprarPacote-DunasdeGenipabu-Dados-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-DunasdeGenipabu-Dados._ComprarPacote-DunasdeGenipabu-Dados-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, não entendi!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "payload": "inicio_postback",
+                  "title": "Sim"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "despedida_postback"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

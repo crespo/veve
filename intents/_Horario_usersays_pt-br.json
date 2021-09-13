@@ -1,0 +1,118 @@
+[
+  {
+    "id": "a8fe310c-897d-4bb8-a3de-381c26ac8b56",
+    "data": [
+      {
+        "text": "atendimento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f94b766b-aacf-487c-87ba-56b25bfc3268",
+    "data": [
+      {
+        "text": "horário de atendimento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "61d5011d-f7ba-4fe9-bf86-bd9f2b5ec3e6",
+    "data": [
+      {
+        "text": "amanhã",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "irá",
+        "userDefined": false
+      },
+      {
+        "text": " abrir?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3e00fb7d-e23b-4ef6-922a-39552bc315a0",
+    "data": [
+      {
+        "text": "quando vai estar aberto?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d7b47ac2-4055-4631-9a73-f7a5fd923fb4",
+    "data": [
+      {
+        "text": "horários de funcionamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f0d159a3-5c63-492f-a60d-222b119e58d0",
+    "data": [
+      {
+        "text": "horário de funcionamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "182f3d60-34e0-47a1-a06e-a9f5bb345a78",
+    "data": [
+      {
+        "text": "horarios",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1efdadf4-df0b-4f8e-bb58-2221d69c519b",
+    "data": [
+      {
+        "text": "horario_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "id": "60de5cd5-92e2-4b97-878c-688c3c45c073",
+  "parentId": "40cf0244-7f4e-41b1-9dfc-3afc29f3091a",
+  "rootParentId": "40cf0244-7f4e-41b1-9dfc-3afc29f3091a",
+  "name": "_ComprarPacote - fallback",
+  "contexts": [
+    "compra",
+    "pacotes",
+    "_ComprarPacote-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote._ComprarPacote-fallback",
+      "affectedContexts": [
+        {
+          "name": "pacotes",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não achei esse pacote aqui."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "title": "Fernando de Noronha",
+                  "payload": "pacote1_postback",
+                  "content_type": "text"
+                },
+                {
+                  "title": "Dunas de Genipabu",
+                  "content_type": "text",
+                  "payload": "pacote2_postback"
+                },
+                {
+                  "title": "Ilhéus",
+                  "content_type": "text",
+                  "payload": "pacote3_postback"
+                }
+              ],
+              "text": "Selecione abaixo o pacote que você gostaria de comprar:"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

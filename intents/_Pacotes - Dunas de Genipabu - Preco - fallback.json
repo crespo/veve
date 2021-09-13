@@ -1,0 +1,64 @@
+{
+  "id": "be3d6434-88a9-4b43-af14-aa552c2a535b",
+  "parentId": "29217b73-46fd-4e89-b64a-f93f7cf8aa3c",
+  "rootParentId": "29217b73-46fd-4e89-b64a-f93f7cf8aa3c",
+  "name": "_Pacotes - Dunas de Genipabu - Preco - fallback",
+  "contexts": [
+    "pacotes",
+    "_Pacotes-DunasdeGenipabu-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-DunasdeGenipabu-Preco._Pacotes-DunasdeGenipabu-Preco-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "title": "Sim",
+                  "payload": "comprar_postback",
+                  "content_type": "text"
+                },
+                {
+                  "payload": "refuse_postback",
+                  "content_type": "text",
+                  "title": "Não"
+                }
+              ],
+              "text": "Não entendi! Você gostaria de comprar esse pacote?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

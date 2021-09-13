@@ -1,0 +1,82 @@
+{
+  "id": "3b67a171-1652-4f07-b1ec-dbbc697aa9d4",
+  "name": "_ComprarPacote - Dunas de Genipabu - Dados",
+  "auto": true,
+  "contexts": [
+    "comprar_dunas"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "comprar_dunas",
+          "lifespan": 1
+        },
+        {
+          "name": "_ComprarPacote-DunasdeGenipabu-Dados-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b86a4400-b255-484d-9c60-6500faf4d37d",
+          "name": "CPF",
+          "required": true,
+          "dataType": "@CPF",
+          "value": "$CPF",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Pode repetir o teu CPF, por favor?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "550edc2d-6267-46ab-a29c-e648908a7373",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digita pra mim o teu nome, por favor!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

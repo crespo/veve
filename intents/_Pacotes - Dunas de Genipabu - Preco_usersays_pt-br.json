@@ -1,0 +1,82 @@
+[
+  {
+    "id": "145ca6fe-665d-452d-8c4a-10cde7f243e7",
+    "data": [
+      {
+        "text": "quanto custa ir ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " as dunas de ",
+        "userDefined": false
+      },
+      {
+        "text": "genipabu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "53b8161d-cde0-47ba-bb6a-92ab4db06b0d",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " as ",
+        "userDefined": false
+      },
+      {
+        "text": "dunas de genipabu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7de031c3-e7ff-45d5-8013-65694c34710d",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "das dunas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a89f4f3a-9bcb-4e8d-ac35-91c7682485f1",
+    "data": [
+      {
+        "text": "preco2_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

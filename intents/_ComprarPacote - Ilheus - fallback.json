@@ -1,0 +1,55 @@
+{
+  "id": "7c36b396-ea91-41f1-861a-ddea7a20c29f",
+  "parentId": "c65d6d39-e774-4793-8397-3eb300ade11a",
+  "rootParentId": "c65d6d39-e774-4793-8397-3eb300ade11a",
+  "name": "_ComprarPacote - Ilheus - fallback",
+  "contexts": [
+    "comprar_ilheus",
+    "_ComprarPacote-Ilheus-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-Ilheus._ComprarPacote-Ilheus-fallback",
+      "affectedContexts": [
+        {
+          "name": "comprar_ilheus",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Eita... Não consegui entender o que você me mandou. Por favor, digite o seu nome completo seguido do seu CPF."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

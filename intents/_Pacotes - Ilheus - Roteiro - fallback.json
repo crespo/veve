@@ -1,0 +1,63 @@
+{
+  "id": "e2facbe6-daf0-4421-b7a0-7036a2274c28",
+  "parentId": "5150e499-df37-46fe-9aa0-33934e82f802",
+  "rootParentId": "5150e499-df37-46fe-9aa0-33934e82f802",
+  "name": "_Pacotes - Ilheus - Roteiro - fallback",
+  "contexts": [
+    "_Pacotes-Ilheus-Roteiro-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-Ilheus-Roteiro._Pacotes-Ilheus-Roteiro-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Não entendi! Você gostaria de comprar esse pacote?",
+              "quick_replies": [
+                {
+                  "payload": "comprar_postback",
+                  "content_type": "text",
+                  "title": "Sim"
+                },
+                {
+                  "content_type": "text",
+                  "payload": "refuse_postback",
+                  "title": "Não"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

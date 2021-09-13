@@ -1,0 +1,106 @@
+[
+  {
+    "id": "14c424b2-873f-427d-80ef-bfd5fce5e7b4",
+    "data": [
+      {
+        "text": "quero viajar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b3c0ca32-b01d-4504-b421-1051851ca485",
+    "data": [
+      {
+        "text": "quanto custa viajar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0d332b29-896f-42b4-8b12-7c591b6072a8",
+    "data": [
+      {
+        "text": "quais os preços",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1fd6c12f-4c41-45a1-96d5-6f4ac3a90785",
+    "data": [
+      {
+        "text": "preços",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d5c8c502-a8b8-466f-a65c-22ed58f17a7a",
+    "data": [
+      {
+        "text": "roteiros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b0f56468-e64c-4451-99bb-f578c729408d",
+    "data": [
+      {
+        "text": "lugares",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f6fc70cd-b761-4f8a-b0bc-1a2bb2725593",
+    "data": [
+      {
+        "text": "pacotes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b0e7b18b-ba25-45a8-bc9a-31c03ac8a624",
+    "data": [
+      {
+        "text": "pacote_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "id": "f6980030-5ef1-469b-b76c-d55fd0a77499",
+  "parentId": "29217b73-46fd-4e89-b64a-f93f7cf8aa3c",
+  "rootParentId": "29217b73-46fd-4e89-b64a-f93f7cf8aa3c",
+  "name": "_Pacotes - Dunas de Genipabu - Preco - no",
+  "auto": true,
+  "contexts": [
+    "_Pacotes-DunasdeGenipabu-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-DunasdeGenipabu-Preco._Pacotes-DunasdeGenipabu-Preco-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de mais alguma informação?",
+              "quick_replies": [
+                {
+                  "payload": "inicio_postback",
+                  "content_type": "text",
+                  "title": "Sim"
+                },
+                {
+                  "payload": "despedida_postback",
+                  "title": "Não",
+                  "content_type": "text"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

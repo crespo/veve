@@ -1,0 +1,114 @@
+{
+  "id": "5e3a14cc-3be5-4381-b251-21f26e076997",
+  "name": "__Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sobre isso eu não tenho conhecimento..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Mas tente alguma das opções abaixo:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "title": "Horários de Funcionamento",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "payload": "horario_postback",
+                          "title": "Clique aqui"
+                        }
+                      ],
+                      "image_url": "https://uc3e4b92abcbb34beeb64ade0772.previews.dropboxusercontent.com/p/thumb/ABQypGD_ON5VwjAC_IAiz3bKXLLwhaecpSU9uV0cdrf6h4G3vMmWVarkJp7DledLgkMR-EFkvfchppuYnama9Vyj7lPwmaYVNGm5U_tBjSvjwVOcKllHyQatwBh3XNQyxmJV6TwLri0Q-ha8PUkGvwdBwP3tCM0537krYKUNMLbMIV-UUJbgtB-UKc-ABBzetXGthptESI0FxJIf66_jB7OOTIQs50ThjZSQWPDL7hhI9rtRmQRKPSbFB-NzOCCEJ1T6txsB2MucYOV_IWWFVq9DirnZNetwiY810rm8tXTqh1XKu9eMjPKHyI23OqldOjOXWzogFNSSpYNxcsGL-Btzs-mqiaoCL2UkrXjXcPLnLLce_uZUNIexKHqC6TSKqYL-8v96uzVrZCkJj1I_8wEU/p.png?fv_content\u003dtrue\u0026size_mode\u003d5"
+                    },
+                    {
+                      "title": "Endereço",
+                      "image_url": "https://uc5a643b8e6a84d5c505bd614535.previews.dropboxusercontent.com/p/thumb/ABTUtRdbAbX72nA4L9-X00rKhFuxx_6eFsaLBfO4IkzpDf8VhKKIsYvOmmqyMuQtZVnT-pun6y9PXLWpVtbVb5vFLhvSgfRSqIajk_itx4UAeOjZJXs3pp7FEkqcCyKffW_rMBnKQNtta39tOKQ26oP8nwzCy-d0rgVEcG08HmDSmjLMnHCz0r10qgw9B9Bu51z6ihOAugqTmjbV_ZoyFMYTh0vezETNXgWOieTdmIv3Mm5dv_6DbhQCP7sHBXhozZJo27pm3CBHUbupIbeJ0QeB-ifg1uEvQgKll_R39GYsUccR_iN2N75cqhXmLHaaf_B4PnB1Ex0VSqB3q_XUp4qeTYmeNrVUVaFXnSuaEJkqMQ6tpkZPhcXMDXxCczLfJKBl5Tnie5xDzgrHeZk25JJd/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "buttons": [
+                        {
+                          "title": "Clique aqui",
+                          "payload": "endereco_postback",
+                          "type": "postback"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://uc6d713177b04945e3d15fc18880.previews.dropboxusercontent.com/p/thumb/ABTO8vjN6QMd4wQUrt0niApTnKKMZar3q8rpM2yIXLuX79UKHqKx5c8ZT9XwkTnsRJB27jT3vpvOt5VbMwXOD6ARh_uy3960H9Gcl52rm1U3_8fbrLTc6fDc9shIalhNfuTVnMjoEM-0fPuMFwEHr9OzZdI2vKqFFdmbRpAirMH6njtsj413SoWXmwI0HPCZAgCttK-vTzP5CrM8LZC-xCo96ClpbWkSPo1FEd2nb-wg6iWx-v9mdCpEZQ-N7sWHWz70BYNok6HLLLfE_d8rWgGd7fjWPSA0uAS7SnGb8ObE7AehfQBOM7betqmB2O56gFqbV1ksjbwNbn_EYaJ3qTgHCtEgWE7r7q6IMHAkDfqsF41vb4P4yvY7xKkYp_RxUCWCflra5cb2DHESodB_ie4H/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "title": "Pacotes",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "payload": "pacote_postback",
+                          "title": "Clique aqui"
+                        }
+                      ]
+                    },
+                    {
+                      "buttons": [
+                        {
+                          "title": "Clique aqui",
+                          "payload": "comprarpacote_postback",
+                          "type": "postback"
+                        }
+                      ],
+                      "title": "Comprar Pacotes",
+                      "image_url": "https://uc4c9732bbe2760563ca147f0614.previews.dropboxusercontent.com/p/thumb/ABQsVD_-gLDJnvfyUTcQVjjbQBI8XutQG8xnp5AN4Zs6uFr_zor7OAe1YEimOnLTOb3_9jbMO1gyAFruOJ5Rhiug7PTF_LIpNe0ptEQJ0Gvj5jP4l1jzXlJRu-06luVE03WGy5JfDzBh9eTAV3H2TDWK5RQtRD27FgLRPpgMVYYjuqgyRsWwS7o3XfY7PBNkcOewn7Wlz8R0EjA3F_QdtxL_frmPtnkOeBLnArTIJSOrNye5yJ-K8QKcKU6TDFePFn_3E5r7wizMc9H8ztbVqS8UTgUlmSLu6nqrsHaZ6iUlUUrgD9buwmUf7a-JskvE-rmGD_clpDRKy-WBggi2kut6guh7YddhCWPzWZ69VzhL0Jf4xoD4JaogdG216PnPSfpMdNhJTwTmtA6UhPTpc_Bd/p.png?fv_content\u003dtrue\u0026size_mode\u003d5"
+                    }
+                  ]
+                },
+                "type": "template"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

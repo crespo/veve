@@ -1,0 +1,74 @@
+{
+  "id": "185f7be8-7023-467d-898f-9df0c8c73dc6",
+  "name": "_Horario",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_Horario-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "facebook",
+          "imageUrl": "https://uc5879fd52e7a4e3e07759686d0f.previews.dropboxusercontent.com/p/thumb/ABTQcQOvU20yoie6ri0SKEKWq6m4xJhs2061CsPew2Y7u8O_oOMMXwq9NAqrHpTVk2BvHmLDaqbqcutVRioHb1Z0amH36dSIuRvPvdBUeQEI9BRRTGBQyVHwY0vaOYxrqtq56QNNyCVFkAOeVoPVne1Dd_ENo9L29wKc2awaMnTcSW-P-dbgHAyA5iAjx05MWjIGA7XnTV_ZbAiBbRoib4L6t7w01gstSivP_niTfffA-Wfi38BdJD8hTPFjGw2_CJuANZRdw2J8s2SSe4mK8IvrAW9vJl0tubbW14EFi2R3afUNk0qRNIXNYYNI09hXVhdiBdqDxvR8--tGTKLvzyEHF34JtZxY4rvNwq43254Ctu1twhqKnzP4YFkcsnrxDh0c1xN021oUvnEhSqlWH9ry/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "inicio_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "despedida_postback"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

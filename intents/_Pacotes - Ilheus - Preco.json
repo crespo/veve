@@ -1,0 +1,78 @@
+{
+  "id": "3d0213bc-2e36-4c13-a232-cac4acb2141d",
+  "name": "_Pacotes - Ilheus - Preco",
+  "auto": true,
+  "contexts": [
+    "pacotes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_Pacotes-Ilheus-Preco-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "- O pacote individual custa R$300,00 🙋"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "comprar_postback",
+                  "content_type": "text",
+                  "title": "Sim"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "refuse_postback"
+                }
+              ],
+              "text": "Gostaria de comprar esse pacote?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

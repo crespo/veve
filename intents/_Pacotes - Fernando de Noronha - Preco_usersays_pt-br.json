@@ -1,0 +1,107 @@
+[
+  {
+    "id": "685d8286-a7e3-43fe-96fe-2551643db471",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "de noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b9e235c4-fc74-4407-86b3-4e7ef37149c7",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6842e9e5-3f3e-4d48-8a5e-9ecac7ccfcb6",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fernando de noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "20989615-7a1d-450d-8324-e79b10545cfb",
+    "data": [
+      {
+        "text": "quanto custa ir ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fernando de noronha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a323baec-e503-4c8f-9a46-7a7eabd7c7a7",
+    "data": [
+      {
+        "text": "preco1_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

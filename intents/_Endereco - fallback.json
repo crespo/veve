@@ -1,0 +1,74 @@
+{
+  "id": "405420e4-6c7d-4138-877b-7c918e47efbf",
+  "parentId": "bdd63f82-4b49-4cd3-8a17-af7be77679cf",
+  "rootParentId": "bdd63f82-4b49-4cd3-8a17-af7be77679cf",
+  "name": "_Endereco - fallback",
+  "contexts": [
+    "_Endereco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Endereco._Endereco-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, não entendi..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de mais alguma informação?",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Sim",
+                  "payload": "inicio_postback"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Não",
+                  "payload": "despedida_postback"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

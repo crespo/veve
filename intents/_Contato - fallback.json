@@ -1,0 +1,67 @@
+{
+  "id": "50160c73-8fd0-4515-a5c5-a2a998eb5657",
+  "parentId": "fe8b8a17-f8a0-4bd9-bdae-abb8032c051c",
+  "rootParentId": "fe8b8a17-f8a0-4bd9-bdae-abb8032c051c",
+  "name": "_Contato - fallback",
+  "contexts": [
+    "_Contato-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Contato._Contato-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Opss! Não consegui entender o que você enviou."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "inicio_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "payload": "despedida_postback",
+                  "title": "Não",
+                  "content_type": "text"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

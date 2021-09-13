@@ -1,0 +1,144 @@
+{
+  "id": "e3e7df27-37ea-4f8a-aa07-0409eb9cae60",
+  "name": "_Pacotes - Fernando de Noronha - Roteiro",
+  "auto": true,
+  "contexts": [
+    "pacotes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_Pacotes-FernandodeNoronha-Roteiro-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 1: Chegada em Fernando de Noronha e Praias do Centro: Praia do Cachorro, Praia do Meio e Pôr do Sol na Praia da Conceição."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 2: Ilha Tour e Pôr do Sol no Forte do Boldró."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 3: Passeio de Barco (meio período) e mergulho na Praia do Porto de Santo Antônio – Pôr do Sol na Capela de São Pedro."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 4: Trilha do Atalaia ou Trilha dos Abreus (agendar logo na chegada, na sede do ICMBio) + Praia de Sueste + Praia do Leão."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 5: Baía do Sancho e Baía dos Porcos pela segunda vez – Pôr do Sol na Pedra do Bode."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 6: Praias da Trilha da Costa Esmeralda (Boldró e Americano) ou escolher outra trilha em Noronha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dia 7: Despedida de Fernando de Noronha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de comprar esse pacote?",
+              "quick_replies": [
+                {
+                  "payload": "comprar_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "payload": "refuse_postback",
+                  "content_type": "text",
+                  "title": "Não"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

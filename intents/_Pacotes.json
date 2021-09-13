@@ -1,0 +1,123 @@
+{
+  "id": "b7a679e8-acab-4f22-a252-a73035550d02",
+  "name": "_Pacotes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pacotes",
+          "lifespan": 1
+        },
+        {
+          "name": "_Pacotes-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Nós conseguimos te levar para esses lugares:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "image_url": "https://uc15fc14e09ef51773bcb9005aba.previews.dropboxusercontent.com/p/thumb/ABS7U4SCgualwyDjy1isaCueVcnx4SUc0xn7dsh3miSTAg9Z-XzFZXamRmb_RV7isdMQTjdOnVkI_tq5L7mFNg416Klz_JCekroJZfMIxoVKYl9gas72zkXA_qLD3BNQE_TaZ6eU0ARKIaMlj8EkBVWwwyYW6u1iNs-DbPEGCLUNXisu8HCh-5-Zygk58jmebBJFK3p21VgzD4iapg5jfLzIV5pGF9_MPa-GaLTqBKHq2Vl-sjSZEa6YFtKNN2m9R67dSItujt8ba2rxsslsKJ9cWj4CS6HAKewslWhDdr4vH9On8y6u_Q6TLaDW448WxFQwA_CRI2xgHrdWBRiKcCSIFitRivnf2RUUM84KDIwDjXNpKVHQXrMMjvWEvvByQsMyP6exkrJqvihwt46nCcn5/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "buttons": [
+                        {
+                          "title": "Preço",
+                          "payload": "preco1_postback",
+                          "type": "postback"
+                        },
+                        {
+                          "title": "Roteiro",
+                          "payload": "roteiro1_postback",
+                          "type": "postback"
+                        }
+                      ],
+                      "title": "Fernando de Noronha"
+                    },
+                    {
+                      "image_url": "https://ucbb827736b7cc821bb85e816d06.previews.dropboxusercontent.com/p/thumb/ABRrBa6zKehsbRKdnixvOOAJVGgJHGor72T0El68OJW4t3G7ZsRkvQkSd1fMqslfoIu9dZximDT5JGc6TBdmiPARqB6tIkThbtNxuH-CGTrcgYUZyBMW4JE4SdapzXUtgy1Or9T6cBtX9UJfh2XQn9TgUepsxy-BDDy9QUB14scmmmzxSuV80ln_oeJwrskQfS9H8DZkb8eerFUM-p5WaRZ6x_dvkqgALBTRbhnTsGzkWj4lmKxQo-TXg5a_pNiJNW9rDBBXAWFGvHzIrkgtD3V6t0ThUSCAnajr9A2Ll6awfz6yYwbv9tkbo5Ql6p0R8T6-Upsx3zkzQCUJpcri4zX_Oowm869d17URDWZid_R2FtnTOflEtH1JNXaEm0VfO1-hz9MjvNDnLQO213GQDvO-/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "title": "Dunas de Genipabu",
+                      "buttons": [
+                        {
+                          "title": "Preço",
+                          "payload": "preco2_postback",
+                          "type": "postback"
+                        },
+                        {
+                          "payload": "roteiro2_postback",
+                          "title": "Roteiro",
+                          "type": "postback"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Ilhéus",
+                      "buttons": [
+                        {
+                          "title": "Preço",
+                          "type": "postback",
+                          "payload": "preco3_postback"
+                        },
+                        {
+                          "payload": "roteiro3_postback",
+                          "title": "Roteiro",
+                          "type": "postback"
+                        }
+                      ],
+                      "image_url": "https://uc2a8582fd4608de2845a5c43bdc.previews.dropboxusercontent.com/p/thumb/ABSbhbY_cCrlHhPUcssTnsiziMAr9X_O6D-A7esL8EQmq2fSUFPHpEIOmeTDbBekBnPaqJp6lQqIygXy6x20NIWNnKFMkCiKkqXWU6LsuNR_tov6FDwlrOXdonZxTRXsQR-whBlGfSNjOuSfhqAA__eQDD08oQ4zXEs2YNAM8R5llUcP0CR2weKeBKbZI8ATgnKoQz_mry3mo--h4jFvBJ_mcWZcM5X2p5o6jRHl2GykKNQNMRTTKA8bhWDw6nT0b7lBhqiXhyp4R8q5oxN6P0gkZyxX7-T_ueCoflk67QB0XGxvluRUyC2r-XdnvE1DVveVDQxTXMsPE2XZXXO31FI-YEudoTNOrHUZ-rUGXwF0XqZ1XTMgcC7FfBf2f7xekiMxfQc1Khv2MPPUaRyXOSbp/p.png?fv_content\u003dtrue\u0026size_mode\u003d5"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

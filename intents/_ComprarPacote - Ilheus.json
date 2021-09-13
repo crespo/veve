@@ -1,0 +1,57 @@
+{
+  "id": "c65d6d39-e774-4793-8397-3eb300ade11a",
+  "name": "_ComprarPacote - Ilheus",
+  "auto": true,
+  "contexts": [
+    "comprar"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "comprar_ilheus",
+          "lifespan": 1
+        },
+        {
+          "name": "_ComprarPacote-Ilheus-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ótimo! Agora, para finalizar a compra, digite o seu nome completo e seu CPF"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

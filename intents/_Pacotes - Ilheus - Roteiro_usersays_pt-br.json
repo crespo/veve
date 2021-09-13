@@ -1,0 +1,65 @@
+[
+  {
+    "id": "0e531d95-e883-4ace-838c-62912dcdd414",
+    "data": [
+      {
+        "text": "qual será o roteiro ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ilhéus",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "20f047a3-641f-477e-9bb1-a955cdaa5472",
+    "data": [
+      {
+        "text": "qual será o caminho ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ilhéus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "19235948-8231-462d-ae62-6641bd03a1b0",
+    "data": [
+      {
+        "text": "roteiro3_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

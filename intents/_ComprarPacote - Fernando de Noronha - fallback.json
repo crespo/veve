@@ -1,0 +1,55 @@
+{
+  "id": "0e79d03b-ac86-46de-a8c0-70d7f207b457",
+  "parentId": "9a7ede95-a338-410c-8a7c-76072bf3f35b",
+  "rootParentId": "9a7ede95-a338-410c-8a7c-76072bf3f35b",
+  "name": "_ComprarPacote - Fernando de Noronha - fallback",
+  "contexts": [
+    "comprar_noronha",
+    "_ComprarPacote-FernandodeNoronha-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-FernandodeNoronha._ComprarPacote-FernandodeNoronha-fallback",
+      "affectedContexts": [
+        {
+          "name": "comprar_noronha",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Eita... Não consegui entender o que você me mandou. Por favor, digite o seu nome completo seguido do seu CPF."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

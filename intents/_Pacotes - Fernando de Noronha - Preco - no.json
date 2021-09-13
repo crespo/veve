@@ -1,0 +1,64 @@
+{
+  "id": "072a4184-6c2d-4c10-a4d3-ee00ea6db7c7",
+  "parentId": "94bef6fc-16e7-4986-9c64-40f8dd9233c2",
+  "rootParentId": "94bef6fc-16e7-4986-9c64-40f8dd9233c2",
+  "name": "_Pacotes - Fernando de Noronha - Preco - no",
+  "auto": true,
+  "contexts": [
+    "_Pacotes-FernandodeNoronha-Preco-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-FernandodeNoronha-Preco._Pacotes-FernandodeNoronha-Preco-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "inicio_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "title": "Não",
+                  "payload": "despedida_postback",
+                  "content_type": "text"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

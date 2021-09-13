@@ -1,0 +1,57 @@
+{
+  "id": "3632c852-a025-437f-8466-dca71b39b033",
+  "name": "_ComprarPacote - Dunas de Genipabu",
+  "auto": true,
+  "contexts": [
+    "comprar"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "_ComprarPacote-DunasdeGenipabu-followup",
+          "lifespan": 1
+        },
+        {
+          "name": "comprar_dunas",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ótimo! Agora, para finalizar a compra, digite o seu nome completo e seu CPF"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

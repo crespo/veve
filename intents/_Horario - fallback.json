@@ -1,0 +1,74 @@
+{
+  "id": "4a049c9b-ae8d-4b5f-aa2a-18eb3d0d127a",
+  "parentId": "185f7be8-7023-467d-898f-9df0c8c73dc6",
+  "rootParentId": "185f7be8-7023-467d-898f-9df0c8c73dc6",
+  "name": "_Horario - fallback",
+  "contexts": [
+    "_Horario-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Horario._Horario-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Poxa, não consegui entender."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Gostaria de mais alguma informação?",
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "payload": "inicio_postback",
+                  "title": "Sim"
+                },
+                {
+                  "content_type": "text",
+                  "payload": "despedida_postback",
+                  "title": "Não"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

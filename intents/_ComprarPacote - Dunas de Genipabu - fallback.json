@@ -1,0 +1,55 @@
+{
+  "id": "99e22970-7089-44a3-851b-54f2d73fa35a",
+  "parentId": "3632c852-a025-437f-8466-dca71b39b033",
+  "rootParentId": "3632c852-a025-437f-8466-dca71b39b033",
+  "name": "_ComprarPacote - Dunas de Genipabu - fallback",
+  "contexts": [
+    "comprar_dunas",
+    "_ComprarPacote-DunasdeGenipabu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-DunasdeGenipabu._ComprarPacote-DunasdeGenipabu-fallback",
+      "affectedContexts": [
+        {
+          "name": "comprar_dunas",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Eita... Não consegui entender o que você me mandou. Por favor, digite o seu nome completo seguido do seu CPF."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

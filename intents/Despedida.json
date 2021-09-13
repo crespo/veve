@@ -1,0 +1,82 @@
+{
+  "id": "b37e73e6-8df1-4b59-80c1-460418641d73",
+  "name": "Despedida",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Gratidão! No que você precisar estarei à sua disposição. Volte sempre!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não deixe de nos seguir nas outras redes sociais! :D"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "payload": {
+                  "elements": [
+                    {
+                      "image_url": "https://uc9b2fe93e35b6c41e47db491e04.previews.dropboxusercontent.com/p/thumb/ABTS7_yK6ML-ahMFivuypiPsBzo5r3ee1Fj_HsW3opHQ1XXcrbTjcikdE9zuXi8ZtDV2jeVqBtV3j6gd897rSak_1aIssEdltZKgseKzxnXOcD8Wnbk8rmr74_b4fQ3Dcu2VmTKmi2L4S0In-cdL9RQh5rIUgO_TH_JzzbkB9u90rTcIDs6UTD6YquAOH6wBq4r2YNlPwVkC0XhJOhKgosuaFoiFwcCD_meMk2MZnNeTE6aSmtI-Q7Qd13PRX2O5il3PnZgeNsS8Ll1VLp1EGc6hH5_xvGavZsMuFD1g6oKGKIbVcEjV6ALB-A8l3G6x6hkE2ZEUsZ9fRJNmkq8dd8d9zcFhb3wwq1djh5ZXEQWdZLBOtp1U7SoClfjbOzg1VUZh6AZC-t9gjYrIp-PRvgvQ/p.png?fv_content\u003dtrue\u0026size_mode\u003d5",
+                      "buttons": [
+                        {
+                          "url": "https://instagram.com/evertur.brasil/",
+                          "type": "web_url",
+                          "title": "Clique aqui"
+                        }
+                      ],
+                      "title": "Instagram"
+                    }
+                  ],
+                  "template_type": "generic"
+                },
+                "type": "template"
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

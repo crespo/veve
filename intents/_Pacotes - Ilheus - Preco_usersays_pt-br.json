@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a43abf7b-8db0-44f0-ae44-6ada9c27d1d0",
+    "data": [
+      {
+        "text": "quanto custa ir ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ilheus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fad2a7af-124b-4f34-9f06-f4e9ab8c36cd",
+    "data": [
+      {
+        "text": "preço ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ilheus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "445e7c90-c5d7-465a-8eac-bfb432d9d460",
+    "data": [
+      {
+        "text": "preço de ",
+        "userDefined": false
+      },
+      {
+        "text": "ilheus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a76157e2-ff87-4aa7-a33b-dcb9ac632647",
+    "data": [
+      {
+        "text": "preco3_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

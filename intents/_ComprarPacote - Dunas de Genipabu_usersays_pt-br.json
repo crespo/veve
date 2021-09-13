@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7cb6e6d7-12a9-41ea-88ed-1c31376bc094",
+    "data": [
+      {
+        "text": "genipabu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "909fa711-e47d-4f0e-9cf8-8292b1e2e08b",
+    "data": [
+      {
+        "text": "dunas de genipabu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f7fc0a72-dc13-4d74-8ec8-2aef00661260",
+    "data": [
+      {
+        "text": "dunas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4a4090fd-b2de-40b3-a440-bca10c7a13b0",
+    "data": [
+      {
+        "text": "pacote2_postback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

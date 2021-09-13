@@ -1,0 +1,75 @@
+{
+  "id": "84274480-76c1-4584-b54e-2946ec0b90b4",
+  "parentId": "b2481dca-f15c-4098-85b2-bbbb5732c410",
+  "rootParentId": "b2481dca-f15c-4098-85b2-bbbb5732c410",
+  "name": "_ComprarPacote - Fernando de Noronha - Dados - fallback",
+  "contexts": [
+    "comprar_noronha",
+    "_ComprarPacote-FernandodeNoronha-Dados-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_ComprarPacote-FernandodeNoronha-Dados._ComprarPacote-FernandodeNoronha-Dados-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpe, não entendi!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "payload": "inicio_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "content_type": "text",
+                  "payload": "despedida_postback",
+                  "title": "Não"
+                }
+              ],
+              "text": "Gostaria de mais alguma informação?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

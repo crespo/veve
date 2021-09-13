@@ -1,0 +1,64 @@
+{
+  "id": "474782e8-d119-477e-9dbc-be5ba33f9552",
+  "parentId": "8b11888d-b848-45fd-9d84-65eabe29f552",
+  "rootParentId": "8b11888d-b848-45fd-9d84-65eabe29f552",
+  "name": "_Pacotes - Dunas de Genipabu - Roteiro - fallback",
+  "contexts": [
+    "pacotes",
+    "_Pacotes-DunasdeGenipabu-Roteiro-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_Pacotes-DunasdeGenipabu-Roteiro._Pacotes-DunasdeGenipabu-Roteiro-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "text": "Não entendi! Você gostaria de comprar esse pacote?",
+              "quick_replies": [
+                {
+                  "payload": "comprar_postback",
+                  "title": "Sim",
+                  "content_type": "text"
+                },
+                {
+                  "content_type": "text",
+                  "payload": "refuse_postback",
+                  "title": "Não"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
