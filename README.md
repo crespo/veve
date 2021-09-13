@@ -9,3 +9,5 @@ All set, if you want to test the MongoDB as well, you should create a new collec
 Now you just have to make an integration with a Facebook Page (https://cloud.google.com/dialogflow/es/docs/integrations/facebook) and now you're ready to go.
 
 Any doubts, tips or critics, please, reach me!
+
+(soon i'll upload some screenshots of the bot)
